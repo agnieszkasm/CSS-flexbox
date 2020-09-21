@@ -18,6 +18,8 @@ body{
     background: white; 
     flex-wrap: wrap;
     flex-flow: row;
+    height: 600px;
+    align-items: baseline;
     justify-content: center;
     
 }

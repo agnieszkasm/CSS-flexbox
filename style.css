@@ -14,36 +14,34 @@ body{
 }
 
 .flex-container {
-  /*display:flex;*/
+    display:flex;
     background: white; 
+    flex-wrap: wrap;
     
 }
 
-/*.flex-container:after {
-    content: "";
-    display: block;
-    clear: both; 
-    
-    This we would need to use if no display:flex + float below
-    */
-} 
-
-
 .box {
     height: 100px;
-    min-width: 100px;
+    flex-grow: 1;
+    flex: 1 0 200px;
+    flex: 1;
+    /*flex-basis: 500px;*/
+    /*flex-basis: 200px;
     /*float: left; */
+    /*flex-grow: 1;*/
 
 }
 
 .one {
     background: red;
+    /*flex-basis: 100px; off bo jest na gorze*/
 }
 
 .two {
     background: blue;
+     /*flex-basis: 200px; off bo jest na gorze*/
 }
 
 .three {
     background: green;
-}
+     /*flex-basis: 300px; off bo jest na gorze*/
